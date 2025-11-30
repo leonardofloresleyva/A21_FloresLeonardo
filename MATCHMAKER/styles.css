@@ -145,3 +145,9 @@ header .match-name{
     font-weight: bold;
     color: #333;
 }
+
+.selected{
+    outline-style: solid;
+    outline-color: #f05d71;
+    outline-width: 2px;
+}
