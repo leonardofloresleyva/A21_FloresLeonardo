@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchyMatchy - Encuentra tu match</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts/formActions.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="dotted-container">
+            <h1>Encuentra a tu Match!</h1>
+            <form action="">
+                <label for="photo">Sube tu foto</label>
+                <input type="file" name="photo" id="photo" accept="image/*" required/>
+
+                <label for="first-name">Tu nombre</label>
+                <input type="text" name="first-name" id="first-name">
+
+                <label for="last-name">Tu apellido</label>
+                <input type="text" name="last-name" id="last-name">
+
+                <label for="email">Tu correo electrónico</label>
+                <input type="text" name="email" id="email">
+
+                <label for="gender">Tu género</label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Hombre</option>
+                    <option value="female">Mujer</option>
+                    <option value="other">Otro</option>
+                </select>
+
+                <fieldset>
+                    <legend>¿En qué estás interesadx?</legend>
+                    <div class="checkbox-group">
+                        <label for="interest">
+                            <input type="checkbox" name="interest" id="men">Hombre
+                        </label>
+
+                        <label for="interest">
+                            <input type="checkbox" name="interest" id="women">Mujer
+                        </label>
+                    </div>
+                </fieldset>
+
+                <label for="nationality">Nacionalidad de tu otra mitad</label>
+                <select name="nationality" id="nationality">
+                    <option value="" disabled selected>Selecciona la Nacionalidad de tu otra mitad</option>
+                </select>
+
+                <button type="submit" class="button">Voy a tener suerte &#128077</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
