@@ -151,3 +151,19 @@ header .match-name{
     outline-color: #f05d71;
     outline-width: 2px;
 }
+
+/* <---Sección correspondiente a código de la asignación---> */
+
+/* Cambia el color de la etiqueta del elemento input/select enfocado */
+
+
+.not-valid-label{
+    color: blue;
+}
+
+/* Cambia el contorno del elemento input/select no válido a un color rojo */
+.not-valid{
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 2px;
+}
